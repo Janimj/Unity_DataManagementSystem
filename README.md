@@ -31,7 +31,7 @@ This should only be used during development and separate save / load functions s
 
 ## Some questions that might arise:
 ### Why Assets/Resources folder?
-Resources folder is included in the build version of a Unity project, storing it in assets folder wont allow its usage with build versions. 
+Resources folder is included in the build version of a Unity project, storing it in assets folder wont include it with build versions. 
 
 ### Why isnt the settings file in the Assets/Resources folder then?
 It shouldnt be used with build version, as the current version lacks some key functionality that most likely break it. Its also not secure as it would be in plain text format and anyone with the build version could modify any of the settings data breaking the build of the build was relying on it. If using it for development build testing, just copy it to the resources folder before building or into the builds /data folder, but keep in mind that it might not work. Writing separate loading / saving functions is advised.
