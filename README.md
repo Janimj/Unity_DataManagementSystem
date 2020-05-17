@@ -22,12 +22,12 @@ DataManager.Save(myType) or DataManager.Save(myType, myEncryptionKey)
 This should only be used during development and separate save / load functions should be written for the production version. As it is neither secure nor optimized yet.
 
 ## Future plans:
-Cloud based saving/loading implementation via http methods
-Production viable version
-More encryption algorithm options
-More data format to utilize
-Ability to create custom data formats
-Data Groups, save / load everything at once within a group
+* Cloud based saving/loading implementation via http methods
+* Production viable version
+* More encryption algorithm options
+* More data format to utilize
+* Ability to create custom data formats
+* Data Groups, save / load everything at once within a group
 
 ## Some questions that might rise:
 ### Why Assets/Resources folder?
