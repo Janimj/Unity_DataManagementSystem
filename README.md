@@ -44,3 +44,6 @@ Some types cannot be serialized, Dictionary for example is not serialisable. Pro
 #### Further reading here: 
 * https://docs.unity3d.com/Manual/script-Serialization.html
 * https://docs.microsoft.com/en-us/dotnet/standard/serialization/
+
+## Changes:
+* Minor hotfix for a bug that caused Show class data button to break
