@@ -29,7 +29,7 @@ This should only be used during development and separate save / load functions s
 * Ability to create custom data formats
 * Data Groups, save / load everything at once within a group
 
-## Some questions that might rise:
+## Some questions that might arise:
 ### Why Assets/Resources folder?
 Resources folder is included in the build version of a Unity project, storing it in assets folder wont allow its usage with build versions. 
 
