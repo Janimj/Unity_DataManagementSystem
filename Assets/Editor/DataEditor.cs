@@ -402,7 +402,7 @@ public class DataEditor : EditorWindow
     /// <param name="i"> Child index </param>
     private void OnShowChildDataStructure(int i)
     {
-        var t = Type.GetType(_typedata[i].Class);
+        var t = DataManager.GetType(_typedata[i].Class);
         var fields = t?.GetFields();
 
         for (int j = 0; j < fields.Length; j++)
