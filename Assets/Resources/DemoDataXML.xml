@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DemoDataXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SomeString>Darkness</SomeString>
+  <SomeFloat>0.0780894756</SomeFloat>
+  <SomeInt>0</SomeInt>
+</DemoDataXML>
