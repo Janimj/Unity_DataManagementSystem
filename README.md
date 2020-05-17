@@ -1,4 +1,4 @@
-# DataManagement System for Unity, version 0.1.0
+# Data Management System for Unity, Version 0.1.0
 
 ## Description:
 A tool to ease the management of data within a Unity project.
